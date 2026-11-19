@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>iha_wta</name>
+  <version>0.1.0</version>
+  <description>Dağıtık çoklu İHA hedef atama (UKF + 3B A* + SciPy yumuşatma + claim tabanlı WTA), PX4 + Gazebo</description>
+  <maintainer email="ozgurdgrmnnc@gmail.com">Özgür</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
+  <exec_depend>iha_wta_msgs</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
