@@ -11,6 +11,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TargetArray.msg"
   "msg/UavState.msg"
   "msg/Claim.msg"
+  "msg/CbbaBids.msg"
+  "msg/TaskDone.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
